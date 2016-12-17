@@ -36,9 +36,8 @@
  
        <address>
   <strong>Brandon Roy</strong><br>
-  17 Newton Barrie<br>
   Barrie,Ontario<br>
- (705) 4444095<br />
+ <br />
   <a href="mailto:#">brandonroycstn@hotmail.com</a>
 </address>
       </div>

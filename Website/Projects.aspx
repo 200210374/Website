@@ -8,10 +8,28 @@
     
     <link rel="stylesheet" type="text/css" href="site.css" />
 
+
+
+
+     <div class="container">
+        <div class="row">
+        <div class="row col-md-8">
+            
+            </div>
+            </div>
+    <div class="row">
+        <div class="col-md-20">
+            <div class="panel panel-primary">
+
+  <div class="panel-body">
     <h1>Projects</h1>
+</div>
 
+                </div>
+            </div>
+        </div>
 
-   
+</div>
   
     <h2>Web Design Projects</h2>
 
@@ -38,10 +56,31 @@ It is meant to be opened locally through the command prompt by opening index.js 
 
 
 
+    <div class="container">
+        <div class="row">
+        <div class="row col-md-8">
+            
+            </div>
+            </div>
+    <div class="row">
+        <div class="col-md-20">
+            <div class="panel panel-primary">
 
+  <div class="panel-body">
 
 
  <h2>Object Oriented Programming</h2>
+
+    </div>
+
+                </div>
+            </div>
+        </div>
+
+</div>
+
+
+
     <h2>C++</h2>
 
     <p style="text-align:center;"><a href="http://www.mediafire.com/file/j22ujbva5862syr/DungeonCrawler.zip">Dungeon Crawler Game</a></p>
