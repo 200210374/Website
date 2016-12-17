@@ -11,7 +11,7 @@
     <h1>Projects</h1>
 
 
-    <img src="https://pixabay.com/en/office-sitting-room-executive-730681/" alt="error"> 
+    <img src="~\images/desk.png'" alt="error"> 
 
     <h2>Web Design Projects</h2>
 
