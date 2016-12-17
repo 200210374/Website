@@ -79,7 +79,7 @@
             </asp:ContentPlaceHolder>
             <hr />
 
-             <img src="https://pixabay.com/en/office-sitting-room-executive-730681/" alt="error"> 
+             
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
             </footer>

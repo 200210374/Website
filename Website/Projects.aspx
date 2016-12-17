@@ -11,8 +11,8 @@
     <h1>Projects</h1>
 
 
-    <img src="images/desk.png'" alt="error"> 
-
+   
+  
     <h2>Web Design Projects</h2>
 
 <p style="text-align:center;"><a href="http://comp2068-assignment1.azurewebsites.net/home">http://comp2068-assignment1.azurewebsites.net/home</a>

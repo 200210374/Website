@@ -1,11 +1,7 @@
 ﻿body {
-
-    
-    background:url('~\images/desk.png') no-repeat 100% 0;
+    background-image: url('images/desk.png');
     background-size: 100%;
-
 }
-
 
 h1 {
     text-align: center;
