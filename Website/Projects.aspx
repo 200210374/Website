@@ -6,7 +6,7 @@
     
 <body>
     
-
+    <link rel="stylesheet" type="text/css" href="site.css" />
 
     <h1>Projects</h1>
 

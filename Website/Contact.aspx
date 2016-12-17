@@ -1,10 +1,10 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Website.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-  
+
 
      <!DOCTYPE html>
-
+  
 <head>
  
   <title>About Me</title>
@@ -16,6 +16,12 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
+    
+    <link rel="stylesheet" type="text/css" href="site.css"/>
+
+  
+
+
 <div class="container">
         <div class="row">
         <div class="row col-md-8">

@@ -1,4 +1,20 @@
 ﻿body {
 
+    
+    background:url('images/desk.jpg') no-repeat 100% 0;
+    background-size: 100%;
 
+}
+
+h2{
+     text-align: center;
+
+
+}
+
+
+a {
+
+    font-size: 20px;
+    color:steelblue
 }
