@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Projects.aspx.cs" Inherits="Website.Projects" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="projects.aspx.cs" Inherits="Website.Projects" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 
@@ -11,7 +11,7 @@
     <h1>Projects</h1>
 
 
-
+    <img src="https://pixabay.com/en/office-sitting-room-executive-730681/" alt="error"> 
 
     <h2>Web Design Projects</h2>
 
