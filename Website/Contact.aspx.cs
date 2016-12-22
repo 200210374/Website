@@ -20,51 +20,43 @@ namespace Website
 
               protected void Submit_Click(object sender, EventArgs e)
         {
-         
-
-        
-
-
-                MailMessage email = new MailMessage();
-                SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
-
-                email.From = new MailAddress(emailTextBox.Text);
-                email.To.Add("brandonroycstn@hotmail.com");
-                email.Subject = "" + SubjectTextBox.Text;
-                email.Body = MessageTextBox.Text;
-
-                SmtpServer.Port = 587;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("username", "password");
-                SmtpServer.EnableSsl = true;
-
-                SmtpServer.Send(email);
-
-
-            MailMessage message = new MailMessage();
-
-            message.From = new MailAddress("sender@foo.bar.com");
 
 
 
-            message.To.Add(new MailAddress("recipient1@foo.bar.com"));
 
-            message.To.Add(new MailAddress("recipient2@foo.bar.com"));
+            string EmailAddress = emailTextBox.Text;
+            MailMessage mailMessage = new MailMessage(EmailAddress, EmailAddress);
+            mailMessage.To.Add(emailTextBox.Text);
 
-            message.To.Add(new MailAddress("recipient3@foo.bar.com"));
+            mailMessage.Subject = NameTextBox.Text + SubjectTextBox.Text;
+            mailMessage.Body = MessageTextBox.Text;
+
+            SmtpClient smtpClient = new SmtpClient("smtp.live.com");
+            smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
+            smtpClient.EnableSsl = true;
+            smtpClient.Host = "smtp.live.com";
+            smtpClient.Port = 587;
+
+            smtpClient.Credentials = new System.Net.NetworkCredential()
+            {
+                UserName = "brandonroycstn@hotmail.com",
+                Password = "Silverlight1"
+            };
+            smtpClient.UseDefaultCredentials = false;
+            smtpClient.Send(mailMessage);
+
+            Response.Write("E-mail sent!");
+
+
+            smtpClient.UseDefaultCredentials = false;
+
+           
 
 
 
-            message.CC.Add(new MailAddress("carboncopy@foo.bar.com"));
-
-            message.Subject = "This is my subject";
-
-            message.Body = "This is the content";
 
 
 
-            SmtpClient client = new SmtpClient();
-
-            client.Send(message);
 
 
 

@@ -31,7 +31,21 @@
 
 </div>
   
+     <div class="container">
+        <div class="row">
+        <div class="row col-md-8">
+            
+            </div>
+            </div>
+    <div class="row">
+        <div class="col-md-20">
+            <div class="panel panel-primary">
+
+  <div class="panel-body">
     <h2>Web Design Projects</h2>
+      
+
+
 
 <p style="text-align:center;"><a href="http://comp2068-assignment1.azurewebsites.net/home">http://comp2068-assignment1.azurewebsites.net/home</a>
     <pre>Completed website made with Express framework</pre></p>
@@ -54,6 +68,14 @@ It is meant to be opened locally through the command prompt by opening index.js 
     <p style="text-align:center;"><a href="http://finishedassignment.azurewebsites.net/About%20me">http://finishedassignment.azurewebsites.net/About%20me</a><pre>
    Unfinished site made with bootstrap and CSS</pre></p>
 
+    </div>
+
+                </div>
+            </div>
+        </div>
+
+</div>
+
 
 
     <div class="container">
@@ -71,14 +93,7 @@ It is meant to be opened locally through the command prompt by opening index.js 
 
  <h2>Object Oriented Programming</h2>
 
-    </div>
-
-                </div>
-            </div>
-        </div>
-
-</div>
-
+    
 
 
     <h2>C++</h2>
@@ -99,7 +114,14 @@ It is meant to be opened locally through the command prompt by opening index.js 
 
 
 
-   
+   </div>
+
+                </div>
+            </div>
+        </div>
+
+</div>
+
 
 
 
