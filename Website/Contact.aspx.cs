@@ -22,7 +22,7 @@ namespace Website
         {
 
 
-
+//smtp.live.com
 
             string EmailAddress = emailTextBox.Text;
             MailMessage mailMessage = new MailMessage(EmailAddress, EmailAddress);
@@ -31,10 +31,10 @@ namespace Website
             mailMessage.Subject = NameTextBox.Text + SubjectTextBox.Text;
             mailMessage.Body = MessageTextBox.Text;
 
-            SmtpClient smtpClient = new SmtpClient("smtp.live.com");
+            SmtpClient smtpClient = new SmtpClient("smtp-mail.outlook.com");
             smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
             smtpClient.EnableSsl = true;
-            smtpClient.Host = "smtp.live.com";
+            smtpClient.Host = "smtp-mail.outlook.com";
             smtpClient.Port = 587;
 
             smtpClient.Credentials = new System.Net.NetworkCredential()

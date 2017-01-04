@@ -16,7 +16,7 @@
             <div class="panel panel-primary">
   <div class="panel-heading"></div>
   <div class="panel-body">
-    <h4>Welcome to my site. This is my public portfolio of my projects and skills. </h4>
+    <h4>Welcome to my site. This is my public portfolio of my projects and skills. My projects will contain links to my github repositories. </h4>
 
       </div>
                 </div>

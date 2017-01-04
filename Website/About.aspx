@@ -16,7 +16,7 @@
   <div class="panel-heading"></div>
   <div class="panel-body">
     <p>I am currently a Computer Programming Co-op Student at Georgian College.  I have completed the Computer Systems Technician Networking Course.
-        This website is to demonstrate that I can create a website using asp.net, css and Bootstrap.
+        The purpose of this website is to demonstrate that I can create a website using asp.net, css and Bootstrap.
     </p>
 
 
