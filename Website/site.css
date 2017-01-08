@@ -17,8 +17,20 @@ h2{
 
 a {
 
-    font-size: 20px;
+    font-size: 25px;
     color:steelblue
+}
+
+
+.glyphicon {
+
+    position: absolute;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 

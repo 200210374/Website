@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Net;
 using System.Net.Mail;
 
 
@@ -18,50 +19,33 @@ namespace Website
 
 
 
-              protected void Submit_Click(object sender, EventArgs e)
+
+
+
+
+        protected void Submit_Click(object sender, EventArgs e)
         {
-
-
-//smtp.live.com
-
-            string EmailAddress = emailTextBox.Text;
-            MailMessage mailMessage = new MailMessage(EmailAddress, EmailAddress);
-            mailMessage.To.Add(emailTextBox.Text);
-
-            mailMessage.Subject = NameTextBox.Text + SubjectTextBox.Text;
-            mailMessage.Body = MessageTextBox.Text;
-
-            SmtpClient smtpClient = new SmtpClient("smtp-mail.outlook.com");
-            smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
-            smtpClient.EnableSsl = true;
-            smtpClient.Host = "smtp-mail.outlook.com";
-            smtpClient.Port = 587;
-
-            smtpClient.Credentials = new System.Net.NetworkCredential()
+            using (MailMessage mm = new MailMessage(emailTextBox.Text, "brandonroycstn@hotmail.com"))
             {
-                UserName = "brandonroycstn@hotmail.com",
-                Password = "Silverlight1"
-            };
-            smtpClient.UseDefaultCredentials = false;
-            smtpClient.Send(mailMessage);
-
-            Response.Write("E-mail sent!");
-
-
-            smtpClient.UseDefaultCredentials = false;
-
-           
-
-
-
-
-
-
-
-
-
-
-
+                mm.Subject = SubjectTextBox.Text;
+                mm.Body =   "Name: " + NameTextBox.Text + "email: " + emailTextBox.Text + "Message: " + MessageTextBox.Text;
+               
+                mm.IsBodyHtml = false;
+                SmtpClient smtp = new SmtpClient();
+                smtp.Host = "smtp-mail.outlook.com";
+                smtp.EnableSsl = true;
+                NetworkCredential NetworkCred = new NetworkCredential("brandonroycstn@hotmail.com", "Lovecraft1");
+                smtp.UseDefaultCredentials = true;
+                smtp.Credentials = NetworkCred;
+                smtp.Port = 587;
+                smtp.Send(mm);
+                ClientScript.RegisterStartupScript(GetType(), "alert", "alert('Email sent.');", true);
+            }
         }
-}
+
+
+
+
+
+    }
 }

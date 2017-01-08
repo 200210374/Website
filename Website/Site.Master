@@ -38,6 +38,10 @@
             </Scripts>
         </asp:ScriptManager>
 
+
+
+           <link rel="stylesheet" type="text/css" href="navbar.css" />
+
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -53,11 +57,12 @@
 
                               
                        
-                        <li><a runat="server" href="~/Default">Home</a></li>
-                        <li><a runat="server" href="~/about">About</a></li>
+                        <li><a runat="server" href="~/Default"><span class = "glyphicon glyphicon-home"></span></a></li>
+                  <li><a runat="server" href="~/contact"> <span class="glyphicon glyphicon-envelope"></span></a></li>       
+                          <li><a runat="server" href="~/about">About Me</a></li>
                         <li><a runat="server" href="~/Skills">Skills</a></li>                      
                         <li><a runat="server" href="~/projects">Projects</a></li>
-             <li><a runat="server" href="~/contact">Contact <span class="glyphicon glyphicon-envelope"></span></a></li>
+          
               <li><a href="https://github.com/200210374/">Github<span class="fa fa-search"></span></a></li>     
 
 
