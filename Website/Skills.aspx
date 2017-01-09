@@ -6,7 +6,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 
-
+<link rel="stylesheet" type="text/css" href="site.css" />
     
 <h2><%: Title %>.</h2>
 
@@ -38,7 +38,7 @@
         </div>
 
 </div>
-     <link rel="stylesheet" type="text/css" href="site.css" />
+     
 
 
 </asp:Content>

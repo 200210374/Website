@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
 
-
+<link rel="stylesheet" type="text/css" href="site.css" />
   <div class="container">
         <div class="row">
         <div class="row col-md-8">
@@ -27,5 +27,5 @@
         </div>
 
 </div>
-     <link rel="stylesheet" type="text/css" href="site.css" />
+     
 </asp:Content>

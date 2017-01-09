@@ -23,14 +23,9 @@ a {
 
 
 .glyphicon {
-
-    position: absolute;
-    width: 100%;
-    top: 0;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
+    position: inherit;
+    vertical-align: bottom;
 }
+
 
 
