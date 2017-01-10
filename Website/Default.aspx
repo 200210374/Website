@@ -16,7 +16,12 @@
             <div class="panel panel-primary">
   <div class="panel-heading"></div>
   <div class="panel-body">
-    <h4>Welcome to my site. This is my public portfolio of my projects and skills. My projects will contain links to my github repositories. </h4>
+    <p>Welcome to my site. This is my public portfolio of my projects and skills. My projects page contain links to my github repositories.</p> 
+
+        <p> I am currently a Computer Programming Co-op Student at Georgian College. 
+         I have completed the Computer Systems Technician Networking Course.
+        The purpose of this website is to demonstrate that I can create a website using asp.net, css and Bootstrap.
+    </p>
 
       </div>
                 </div>
