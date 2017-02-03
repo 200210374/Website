@@ -101,7 +101,7 @@ It is meant to be opened locally through the command prompt by opening index.js 
 <p style="text-align:center;"><a href="https://github.com/200210374/C-Employee-editor">Github Link</a></p>
       
       <pre>This is a windows forms project that allows the user to create and edit records. It uses multiple forms that close when a different form is opened.
-           The application has an executable called application_start.exe </pre>
+The application has an executable called application_start.exe </pre>
 
 
     <h2>C++</h2>
@@ -110,7 +110,7 @@ It is meant to be opened locally through the command prompt by opening index.js 
        <p style="text-align:center;"><a href="https://github.com/200210374/DungeonCrawler">Github Link</a></p>
 
     <pre>Dungeon crawler is a game where the character traverses through a dungeon, you will face enemies and traps until you reach the exit.
-     Your character can use spells and his stats are randomly generated.</pre>
+Your character can use spells and his stats are randomly generated.</pre>
 
    
 
@@ -119,7 +119,7 @@ It is meant to be opened locally through the command prompt by opening index.js 
     <p style="text-align:center;"><a href="https://www.mediafire.com/?ym20zq696ovsj4o">JavaMart-</a></p>
      
 <pre>This program is a java application that is meant to mimic a bank teller.
-    This program was made in a team that I was apart of.
+This program was made in a team that I was apart of.
 </pre>
 
 
