@@ -8,7 +8,7 @@
 
 <link rel="stylesheet" type="text/css" href="site.css" />
     
-<h2><%: Title %>.</h2>
+<h2><%: Title %></h2>
 
 
   <div class="container">

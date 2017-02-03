@@ -95,6 +95,12 @@ It is meant to be opened locally through the command prompt by opening index.js 
  <h2>Object Oriented Programming</h2>
 
     
+      <h2>C#</h2>
+
+      <p style="text-align:center;"><a href="https://github.com/200210374/C-Employee-editor">Employee Editor</a></p>
+
+      <pre>This is a windows forms project that allows the user to create and edit records. It uses multiple forms that close when a different form is opened.
+           The application has an executable called application_start.exe </pre>
 
 
     <h2>C++</h2>
@@ -103,7 +109,7 @@ It is meant to be opened locally through the command prompt by opening index.js 
        <p style="text-align:center;"><a href="https://github.com/200210374/DungeonCrawler">Github Link</a></p>
 
     <pre>Dungeon crawler is a game where the character traverses through a dungeon, you will face enemies and traps until you reach the exit.
-    Which is guarded by the dungeon master. Your character can use spells and his stats are randomly generated.</pre>
+     Your character can use spells and his stats are randomly generated.</pre>
 
    
 
