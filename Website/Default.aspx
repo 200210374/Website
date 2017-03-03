@@ -19,8 +19,10 @@
     <p>Welcome to my site. This is my public portfolio of my projects and skills. My projects page contain links to my github repositories.</p> 
 
         <p> I am currently a Computer Programming Co-op Student at Georgian College. 
-         I have completed the Computer Systems Technician Networking Course.
-        The purpose of this website is to demonstrate that I can create a website using asp.net, css and Bootstrap.
+         I have completed the Computer Systems Technician Networking Course and obtained the diploma.
+
+        The purpose of this website is to demonstrate that I can create a website using asp.net, css and Bootstrap
+            As well as demonstrate the skills that I have obtained through Computer Programming and Computer Systems Technician Networking courses.
     </p>
 
       </div>
