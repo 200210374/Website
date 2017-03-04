@@ -32,7 +32,72 @@
 
 </div>
   
-     <div class="container">
+   
+    <div class="container">
+        <div class="row">
+        <div class="row col-md-8">
+            
+            </div>
+            </div>
+    <div class="row">
+        <div class="col-md-20">
+            <div class="panel panel-primary">
+
+  <div class="panel-body">
+
+
+ <h2>Object Oriented Programming</h2>
+
+    
+      <h2>C#</h2>
+
+
+               <p style="text-align:center;"><a href="https://github.com/200210374/shortcutManager.git">Shortcut Manger</a></p>
+      <pre>This is a windows forms project that allows the user to add existing program shortcuts and open them. The user can save the records added, delete and edit them.
+          This program is helpful when the desktop is filled with too many shortcuts.
+To open the program the application has an executable called shortCutManagerShortcut.exe
+
+
+      </pre>
+
+<p style="text-align:center;"><a href="https://drive.google.com/open?id=0B4W_FDH6l1maY0dzSFJVMFF4NEE">Employee Editor</a></p>
+<p style="text-align:center;"><a href="https://github.com/200210374/C-Employee-editor">Github Link</a></p>
+      
+      <pre>This is a windows forms project that allows the user to create and edit records. It uses multiple forms that close when a different form is opened.
+The application has an executable called application_start.exe </pre>
+
+
+    <h2>C++</h2>
+
+    <p style="text-align:center;"><a href="http://www.mediafire.com/file/j22ujbva5862syr/DungeonCrawler.zip">Dungeon Crawler Game</a></p>
+       <p style="text-align:center;"><a href="https://github.com/200210374/DungeonCrawler">Github Link</a></p>
+
+    <pre>Dungeon crawler is a game where the character traverses through a dungeon, you will face enemies and traps until you reach the exit.
+Your character can use spells and his stats are randomly generated.
+    </pre>
+
+   
+
+    <h2>java</h2>
+
+    <p style="text-align:center;"><a href="https://www.mediafire.com/?ym20zq696ovsj4o">JavaMart-</a></p>
+     
+<pre>This program is a java application that is meant to mimic a bank teller.
+This program was made in a team that I was apart of.
+</pre>
+
+
+
+   </div>
+
+                </div>
+            </div>
+        </div>
+
+</div>
+
+
+      <div class="container">
         <div class="row">
         <div class="row col-md-8">
             
@@ -70,61 +135,6 @@ It is meant to be opened locally through the command prompt by opening index.js 
    Unfinished site made with bootstrap and CSS</pre></p>
 
     </div>
-
-                </div>
-            </div>
-        </div>
-
-</div>
-
-
-
-    <div class="container">
-        <div class="row">
-        <div class="row col-md-8">
-            
-            </div>
-            </div>
-    <div class="row">
-        <div class="col-md-20">
-            <div class="panel panel-primary">
-
-  <div class="panel-body">
-
-
- <h2>Object Oriented Programming</h2>
-
-    
-      <h2>C#</h2>
-
-<p style="text-align:center;"><a href="https://drive.google.com/open?id=0B4W_FDH6l1maY0dzSFJVMFF4NEE">Employee Editor</a></p>
-<p style="text-align:center;"><a href="https://github.com/200210374/C-Employee-editor">Github Link</a></p>
-      
-      <pre>This is a windows forms project that allows the user to create and edit records. It uses multiple forms that close when a different form is opened.
-The application has an executable called application_start.exe </pre>
-
-
-    <h2>C++</h2>
-
-    <p style="text-align:center;"><a href="http://www.mediafire.com/file/j22ujbva5862syr/DungeonCrawler.zip">Dungeon Crawler Game</a></p>
-       <p style="text-align:center;"><a href="https://github.com/200210374/DungeonCrawler">Github Link</a></p>
-
-    <pre>Dungeon crawler is a game where the character traverses through a dungeon, you will face enemies and traps until you reach the exit.
-Your character can use spells and his stats are randomly generated.</pre>
-
-   
-
-    <h2>java</h2>
-
-    <p style="text-align:center;"><a href="https://www.mediafire.com/?ym20zq696ovsj4o">JavaMart-</a></p>
-     
-<pre>This program is a java application that is meant to mimic a bank teller.
-This program was made in a team that I was apart of.
-</pre>
-
-
-
-   </div>
 
                 </div>
             </div>
