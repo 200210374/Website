@@ -53,8 +53,8 @@
 
 
                <p style="text-align:center;"><a href="https://github.com/200210374/shortcutManager.git">Shortcut Manger</a></p>
-      <pre>This is a windows forms project that allows the user to add existing program shortcuts and open them. The user can save the records added, delete and edit them.
-          This program is helpful when the desktop is filled with too many shortcuts.
+      <pre>This is a windows forms project that allows the user to add existing program shortcuts and open them. 
+The user can save the records added, delete and edit them. This program is helpful when the desktop is filled with too many shortcuts.
 To open the program the application has an executable called shortCutManagerShortcut.exe
 
 
@@ -126,13 +126,12 @@ This program was made in a team that I was apart of.
 ASP.net website- It uses MYSQL database and shows information in a table.</pre></p>
 
     <p style="text-align:center;"><a href="https://github.com/200210374/presentation">https://github.com/200210374/presentation</a><pre>
-
- A Very simple REST application. It is created with express generator.
+A Very simple REST application. It is created with express generator.
 It is meant to be opened locally through the command prompt by opening index.js and typing local host 3000 in your browser. </pre></p>
 
 
     <p style="text-align:center;"><a href="http://finishedassignment.azurewebsites.net/About%20me">http://finishedassignment.azurewebsites.net/About%20me</a><pre>
-   Unfinished site made with bootstrap and CSS</pre></p>
+Unfinished site made with bootstrap and CSS</pre></p>
 
     </div>
 
