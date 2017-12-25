@@ -51,6 +51,20 @@
     
       <h2>C#</h2>
 
+      <p style="text-align:center;"><a href="https://github.com/200210374/EmailTexTProgram">Email To Text Application- Computer to Cellphone text application</a></p>
+
+      
+       <img src="images/emailtotextimage.PNG" alt="emailtotextimage" class="center"> 
+         
+       
+      <pre>
+          THis application will use an email account to send texts to a cellphone. 
+          Replies from a cellphone will go into the email you used. Phone numbers and email can also be stored.
+          *An email account is required with the proper settings changed to be able to use this program. Installation is required.
+</pre>
+
+       <p style="text-align:center;"><a href="http://www2.zippyshare.com/v/9IU5I9eA/file.html">Download: Email To Text</a></p>        
+
 
                <p style="text-align:center;"><a href="https://github.com/200210374/shortcutManager.git">Shortcut Manger</a></p>
       <pre>This is a windows forms project that allows the user to add existing program shortcuts and open them. 
